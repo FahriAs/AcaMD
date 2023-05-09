@@ -74,7 +74,7 @@ handler.all = async function (m) {
 					description: wm3,
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pic)).buffer(),
-					sourceUrl: "https://github.com/Lucife-Putra"			
+					sourceUrl: "https://github.com/FahriAs			
 				}
 			}
 		}
@@ -144,7 +144,7 @@ global.fakefb = {
             key: { 
                  fromMe: false,
                  participant: `0@s.whatsapp.net`, ...(m.chat ? 
-            { remoteJid: "6285736178354-1625305606@g.us" } : {}) 
+            { remoteJid: "628893729854-1625305606@g.us" } : {}) 
                        },
             message: { 
                "audioMessage": {
@@ -159,7 +159,7 @@ global.fakefb = {
             key: { 
                  fromMe: false,
                  participant: `0@s.whatsapp.net`, ...(m.chat ? 
-            { remoteJid: "6285736178354-1625305606@g.us" } : {}) 
+            { remoteJid: "628893729854-1625305606@g.us" } : {}) 
                        },
             message: { 
                "extendedTextMessage": {
@@ -183,7 +183,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "ImYanXiao","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": "Xzet-Rii","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                    global.ftoko = {
@@ -230,9 +230,9 @@ global.fakefb = {
            },
            "message": {
                "groupInviteMessage": {
-                   "groupJid": "6285736178354-1625305606@g.us",
+                   "groupJid": "6288943729854-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Elaina", 
+                   "groupName": "AcaMD", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
